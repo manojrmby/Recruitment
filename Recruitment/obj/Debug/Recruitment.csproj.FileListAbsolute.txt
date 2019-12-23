@@ -1,0 +1,112 @@
+D:\Projects\Recruitment\Recruitment\bin\Recruitment.dll.config
+D:\Projects\Recruitment\Recruitment\bin\Recruitment.dll
+D:\Projects\Recruitment\Recruitment\bin\Recruitment.pdb
+D:\Projects\Recruitment\Recruitment\bin\roslyn\csc.exe
+D:\Projects\Recruitment\Recruitment\bin\roslyn\csc.exe.config
+D:\Projects\Recruitment\Recruitment\bin\roslyn\csc.rsp
+D:\Projects\Recruitment\Recruitment\bin\roslyn\csi.exe
+D:\Projects\Recruitment\Recruitment\bin\roslyn\csi.rsp
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Recruitment\Recruitment\bin\roslyn\System.AppContext.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Recruitment\Recruitment\bin\roslyn\vbc.exe
+D:\Projects\Recruitment\Recruitment\bin\roslyn\vbc.exe.config
+D:\Projects\Recruitment\Recruitment\bin\roslyn\vbc.rsp
+D:\Projects\Recruitment\Recruitment\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Recruitment\Recruitment\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Recruitment\Recruitment\bin\Antlr3.Runtime.dll
+D:\Projects\Recruitment\Recruitment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\Recruitment\Recruitment\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Recruitment\Recruitment\bin\Newtonsoft.Json.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Helpers.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Mvc.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Optimization.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Razor.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Recruitment\Recruitment\bin\WebGrease.dll
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Helpers.xml
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Mvc.xml
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Optimization.xml
+D:\Projects\Recruitment\Recruitment\bin\System.Web.Razor.xml
+D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.xml
+D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Recruitment\Recruitment\bin\Newtonsoft.Json.xml
+D:\Projects\Recruitment\Recruitment\bin\Antlr3.Runtime.pdb
+D:\Projects\Recruitment\Recruitment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csproj.CoreCompileInputs.cache
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csproj.CopyComplete
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.dll
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.pdb
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csprojAssemblyReference.cache
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Recruitment.dll.config
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Recruitment.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Recruitment.pdb
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\csc.exe
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\csc.exe.config
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\csc.rsp
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\csi.exe
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\csi.rsp
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\System.AppContext.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\vbc.exe
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\vbc.exe.config
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\vbc.rsp
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\VBCSCompiler.exe
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Antlr3.Runtime.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\EntityFramework.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Newtonsoft.Json.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Helpers.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Mvc.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Optimization.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Razor.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Razor.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\WebGrease.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\EntityFramework.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Helpers.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Mvc.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Optimization.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.Razor.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Razor.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Newtonsoft.Json.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Antlr3.Runtime.pdb
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.dll
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.pdb
+C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csprojResolveAssemblyReference.cache

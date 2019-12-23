@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RecruitmentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Recruitment.dbo.tblLogin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tblLogin">
+    <Key>
+      <PropertyRef Name="EmpId" />
+      <PropertyRef Name="UserNameStr" />
+      <PropertyRef Name="PasswordStr" />
+      <PropertyRef Name="Role" />
+    </Key>
+    <Property Name="EmpId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserNameStr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PasswordStr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Role" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Recruitment.dbo.tblRoleMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tblRoleMaster">
+    <Key>
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="Role" />
+    </Key>
+    <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="RecruitmentModelStoreContainer">
+    <EntitySet Name="tblLogin" EntityType="Self.tblLogin" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tblLogin].[EmpId] AS [EmpId], 
+[tblLogin].[UserNameStr] AS [UserNameStr], 
+[tblLogin].[PasswordStr] AS [PasswordStr], 
+[tblLogin].[Role] AS [Role]
+FROM [dbo].[tblLogin] AS [tblLogin]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblRoleMaster" EntityType="Self.tblRoleMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tblRoleMaster].[RoleId] AS [RoleId], 
+[tblRoleMaster].[Role] AS [Role]
+FROM [dbo].[tblRoleMaster] AS [tblRoleMaster]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

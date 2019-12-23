@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RecruitmentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="RoleMaster">
+    <Key>
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="Role" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="RecruitmentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="RoleMasters" EntityType="RecruitmentModel.RoleMaster" />
+    <EntitySet Name="tblLogins" EntityType="RecruitmentModel.tblLogin" />
+  </EntityContainer>
+  <EntityType Name="tblLogin">
+    <Key>
+      <PropertyRef Name="EmpId" />
+      <PropertyRef Name="UserNameStr" />
+      <PropertyRef Name="PasswordStr" />
+      <PropertyRef Name="Role" />
+    </Key>
+    <Property Name="EmpId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserNameStr" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordStr" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>
