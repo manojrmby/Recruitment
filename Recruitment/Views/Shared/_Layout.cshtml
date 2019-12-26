@@ -1,6 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@model Recruitment.Models.LoginModel
+<!DOCTYPE html>
 <html>
 <head>
+	@{
+		//var Rolename = Model. ;
+
+	}
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>@ViewBag.Title - My ASP.NET Application</title>
@@ -13,7 +18,6 @@
 	<link href="~/Content/styles.css" rel="stylesheet" />
 </head>
 <body style="height:auto">
-	
 	<div class="container body-content">
 		<div id='cssmenu'>
 			<ul>
@@ -37,9 +41,21 @@
 						</li>
 					</ul>
 				</li>
+
+				@if (Session["UserDetails"].ToString() == "Employee")
+				{
+					<li>@Html.ActionLink("Employee", "CURD_Employee", "Employee")</li>
+				}
+				else if (Session["UserDetails"].ToString() == "Admin")
+				{
+					<li>@Html.ActionLink("Employee", "CURD_Employee", "Employee")</li>
+				}
+				<li>@Html.ActionLink("Recruit", "Enquery", "Recruit")</li>
 				<li><a href='#'><span>About</span></a></li>
 				<li class='last'><a href='#'><span>Contact</span></a></li>
+				<li class="last" style="float:right">@Html.ActionLink("Logout", "Logout", "Login")</li>
 			</ul>
+
 		</div>
 		@RenderBody()
 		<hr />

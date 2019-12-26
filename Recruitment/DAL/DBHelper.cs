@@ -15,6 +15,14 @@ namespace Recruitment.DAL
    
     public class DBHelper :IDisposable
     {
+
+        public static class Role
+        {
+            public const string Admin = "Admin";
+            public const string Employee = "Employee";
+            public const string HR = "HR";
+           
+        }
         private void openConnection()
         {
             if (this.conn != null && this.conn.State == ConnectionState.Closed)

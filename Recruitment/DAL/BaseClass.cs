@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Web;
+using System.Web.Security;
 using Recruitment.Models;
 
 namespace Recruitment.DAL
@@ -27,12 +28,12 @@ namespace Recruitment.DAL
                 {
                     loginModel.Empid= Convert.ToString(dt.Rows[0]["EmpId"]);
                     loginModel.Role= Convert.ToString(dt.Rows[0]["Role"]);
+                    
                     RoleName = Convert.ToString(dt.Rows[0]["Role"]).ToString();
                 }
              }
             return loginModel;
-        }
-        
+        } 
 
     }
 }

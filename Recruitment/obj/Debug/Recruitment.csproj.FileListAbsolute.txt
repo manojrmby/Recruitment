@@ -23,11 +23,8 @@ D:\Projects\Recruitment\Recruitment\bin\System.Web.WebPages.Razor.xml
 D:\Projects\Recruitment\Recruitment\bin\Newtonsoft.Json.xml
 D:\Projects\Recruitment\Recruitment\bin\Antlr3.Runtime.pdb
 D:\Projects\Recruitment\Recruitment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csproj.CoreCompileInputs.cache
-D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csproj.CopyComplete
 D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.dll
 D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.pdb
-D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csprojAssemblyReference.cache
 C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Recruitment.dll.config
 C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Recruitment.dll
 C:\Users\Promantus Inc\Desktop\Projects\Recruitment\Recruitment\bin\Recruitment.pdb
@@ -112,3 +109,6 @@ D:\Projects\Recruitment\Recruitment\bin\roslyn\vbc.exe.config
 D:\Projects\Recruitment\Recruitment\bin\roslyn\vbc.rsp
 D:\Projects\Recruitment\Recruitment\bin\roslyn\VBCSCompiler.exe
 D:\Projects\Recruitment\Recruitment\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csprojAssemblyReference.cache
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csproj.CoreCompileInputs.cache
+D:\Projects\Recruitment\Recruitment\obj\Debug\Recruitment.csproj.CopyComplete

@@ -7,15 +7,12 @@ using System.Web.Mvc;
 
 namespace Recruitment.Controllers
 {
-    public class RecruitController : Controller
+    public class AdminController : Controller
     {
-        
-        public ActionResult Enquery()
+        [DAL.AuthorizeRolesAttribute(UserRole = DBHelper.Role.Admin)]
+        public ActionResult Index()
         {
-            
-                return View();
-           
+            return View();
         }
-
     }
 }

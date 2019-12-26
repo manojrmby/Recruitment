@@ -9,7 +9,7 @@ namespace Recruitment.Controllers
 {
     public class HomeController : Controller
     {
-        DBEmployee DBEmp = new DBEmployee();
+        [AuthorizeRolesAttribute(UserRole = DBHelper.Role.Admin + "," + DBHelper.Role.Employee)]
         public ActionResult Index()
         {
             return View();
@@ -29,31 +29,6 @@ namespace Recruitment.Controllers
             return View();
         }
 
-        public JsonResult List()
-        {
-
-            return Json(DBEmp.listAll(), JsonRequestBehavior.AllowGet);
-        }
-
-        public JsonResult Add(EmployeeModel emp)
-        {
-            return Json(DBEmp.Add(emp), JsonRequestBehavior.AllowGet);
-        }
-
-        public JsonResult Update(EmployeeModel emp)
-        {
-            return Json(DBEmp.Update(emp), JsonRequestBehavior.AllowGet);
-        }
-        public JsonResult Delete(int ID)
-        {
-            return Json(DBEmp.Delete(ID), JsonRequestBehavior.AllowGet);
-        }
-
-
-        public JsonResult GetbyID(int ID)
-        {
-            var Employee = DBEmp.listAll().Find(x => x.ID.Equals(ID));
-            return Json(Employee, JsonRequestBehavior.AllowGet);
-        }
+       
     }
 }

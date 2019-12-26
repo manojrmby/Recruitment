@@ -6,7 +6,7 @@ $(document).ready(function () {
 function loadData() {
 	
 	$.ajax({
-		url: "/Home/List",
+		url: "/Employee/List",
 		type: "GET",
 		contentType: "application/json;charset=utf-8",
 		dataType: "json",
@@ -47,7 +47,7 @@ function Add() {
 		Country: $('#Country').val()
 	};
 	$.ajax({
-		url: "/Home/Add",
+		url: "/Employee/Add",
 		data: JSON.stringify(empObj),
 		type: "POST",
 		contentType: "application/json;charset=utf-8",
@@ -68,7 +68,7 @@ function getbyID(EmpID) {
 	$('#State').css('border-color', 'lightgrey');
 	$('#Country').css('border-color', 'lightgrey');
 	$.ajax({
-		url: "/Home/getbyID/" + EmpID,
+		url: "/Employee/getbyID/" + EmpID,
 		typr: "GET",
 		contentType: "application/json;charset=UTF-8",
 		dataType: "json",
@@ -110,7 +110,7 @@ function Update() {
 		Country: $('#Country').val(),
 	};
 	$.ajax({
-		url: "/Home/Update",
+		url: "/Employee/Update",
 		data: JSON.stringify(empObj),
 		type: "POST",
 		contentType: "application/json;charset=utf-8",
@@ -135,7 +135,7 @@ function Delele(ID) {
 	var ans = confirm("Are you sure you want to delete this Record?");
 	if (ans) {
 		$.ajax({
-			url: "/Home/Delete/" + ID,
+			url: "/Employee/Delete/" + ID,
 			type: "POST",
 			contentType: "application/json;charset=UTF-8",
 			dataType: "json",

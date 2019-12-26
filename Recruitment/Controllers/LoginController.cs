@@ -28,10 +28,14 @@ namespace Recruitment.Controllers
 
            if (login.Empid!=null)
             {
-                
-                return RedirectToAction("Enquery", "Recruit");
+                Session["UserDetails"] = BaseClass.RoleName;
+                return RedirectToAction("Index", "Home");
             }
             return RedirectToAction("Login", "Login");
+        }
+        public ActionResult Logout()
+        {
+          return RedirectToAction("Login", "Login");
         }
     }
 }

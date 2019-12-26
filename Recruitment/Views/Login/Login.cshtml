@@ -6,41 +6,50 @@
 
 @using (Html.BeginForm("Login", "Login", FormMethod.Post))
 {
-	<fieldset>
-		<legend>Mvc Simple Login Application Demo</legend>
 
-		@Html.AntiForgeryToken()
-		@Html.ValidationSummary(true)
-		@if (@ViewBag.Message != null)
-		{
-			<div style="border: 1px solid red">
-				@ViewBag.Message
-			</div>
-		}
-		<table>
-			<tr>
-				<td>@Html.LabelFor(a => a.UserName)</td>
-				<td>@Html.TextBoxFor(a => a.UserName)</td>
-				<td>@Html.ValidationMessageFor(a => a.UserName)</td>
-			</tr>
-			<tr>
-				<td>
-					@Html.LabelFor(a => a.Password)
-				</td>
-				<td>
-					@Html.PasswordFor(a => a.Password)
-				</td>
-				<td>
-					@Html.ValidationMessageFor(a => a.Password)
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>
-					<input type="submit" value="Login" />
-				</td>
-				<td></td>
-			</tr>
-		</table>
-	</fieldset>
+	<head>
+		<link href="~/styles/Login.css" rel="stylesheet" />
+	</head>
+	<body>
+		<section class="form animated flipInX">
+			<h2>Login To Your Account</h2>
+			<fieldset>
+				<legend></legend>
+
+				@Html.AntiForgeryToken()
+				@Html.ValidationSummary(true)
+				@if (@ViewBag.Message != null)
+				{
+					<div style="border: 1px solid red">
+						@ViewBag.Message
+					</div>
+				}
+				<table class="loginbox" autocomplete="off">
+					<tr>
+						<td>@Html.LabelFor(a => a.UserName)</td>
+						<td>@Html.TextBoxFor(a => a.UserName)</td>
+						<td>@Html.ValidationMessageFor(a => a.UserName)</td>
+					</tr>
+					<tr>
+						<td>
+							@Html.LabelFor(a => a.Password)
+						</td>
+						<td>
+							@Html.PasswordFor(a => a.Password)
+						</td>
+						<td>
+							@Html.ValidationMessageFor(a => a.Password)
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" value="Login" />
+						</td>
+						<td></td>
+					</tr>
+				</table>
+			</fieldset>
+		</section>
+</body>
 }
