@@ -131,7 +131,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RecruitController.cs" />
     <Compile Include="DAL\AuthorizeRolesAttribute.cs" />
-    <Compile Include="DAL\DBEmployee.cs" />
+    <Compile Include="DAL\DBModels.cs" />
     <Compile Include="DAL\DBHelper.cs" />
     <Compile Include="DAL\BaseClass.cs" />
     <Compile Include="Global.asax.cs">
@@ -139,6 +139,7 @@
     </Compile>
     <Compile Include="Models\EmployeeModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\RoleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\Custom\Employee.js" />
+    <Content Include="Scripts\Custom\RoleMaster.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -184,9 +186,9 @@
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Recruit\Enquery.cshtml" />
     <Content Include="Views\Employee\CURD_Employee.cshtml" />
+    <Content Include="Views\Admin\RoleMaster.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Role\" />
   </ItemGroup>
   <ItemGroup>

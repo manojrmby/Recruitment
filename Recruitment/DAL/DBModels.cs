@@ -7,9 +7,10 @@ using System.Web;
 
 namespace Recruitment.DAL
 {
-    public class DBEmployee
+    public class DBModels
     {
-        public List<EmployeeModel> listAll()
+       
+        public List<EmployeeModel> listAll_Emp()
         {
             List<EmployeeModel> lst = new List<EmployeeModel>();
             DataSet ds = new DataSet();
@@ -30,8 +31,7 @@ namespace Recruitment.DAL
             return myData.ToList();
 
         }
-
-        public int Add(EmployeeModel Emp)
+        public int Add_Emp(EmployeeModel Emp)
         {
             int i;
 
@@ -49,8 +49,7 @@ namespace Recruitment.DAL
 
 
         }
-
-        public int Update(EmployeeModel Emp)
+        public int Update_Emp(EmployeeModel Emp)
         {
             int i;
             DBHelper DB = new DBHelper("Sp_Employee", CommandType.StoredProcedure);
@@ -65,7 +64,7 @@ namespace Recruitment.DAL
             i = DB.Execute();
             return i;
         }
-        public int Delete(int EmpID)
+        public int Delete_Emp(int EmpID)
         {
             int i;
             DBHelper DB = new DBHelper("Sp_Employee", CommandType.StoredProcedure);
@@ -73,6 +72,27 @@ namespace Recruitment.DAL
             DB.addIn("Id", EmpID);
             i = DB.Execute();
             return i;
+        }
+
+
+        public List<RoleModel> listAll_Role()
+        {
+            List<RoleModel> lst = new List<RoleModel>();
+            DataSet ds = new DataSet();
+
+            DBHelper DB = new DBHelper("SP_Role", CommandType.StoredProcedure);
+            DB.addIn("@Action", "ALL");
+            ds = DB.ExecuteDataSet();
+
+            var myData = ds.Tables[0].AsEnumerable().Select(r => new RoleModel
+            {
+                ID = r.Field<int>("Roleid"),
+                RoleName = r.Field<string>("Role"),
+             });
+
+            lst= myData.ToList();
+            return lst;
+
         }
     }
 }
